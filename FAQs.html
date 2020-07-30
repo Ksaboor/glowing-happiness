@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>FAQa</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark mb-3">
+      <div class="container">
+        <a href="#" class="navbar-brand mr-3">Pharma</a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="Trials.html" class="nav-item nav-link">Trials</a>
+            <a href="howto.html" class="nav-item nav-link"
+              >How To Participate</a
+            >
+            <a href="FAQs.html" class="nav-item nav-link">FAQs</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <h1 class="display-4">Hello, world!</h1>
+      <p class="lead">
+        This is a simple hero unit, a simple jumbotron-style component for
+        calling extra attention to featured content or information.
+      </p>
+      <hr class="my-4" />
+      <p>
+        It uses utility classes for typography and spacing to space content out
+        within the larger container.
+      </p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
+    </div>
+
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-10 mx-auto">
+          <div class="accordion" id="faqExample">
+            <div class="card">
+              <div class="card-header p-2" id="headingOne">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Q: How does this work?
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#faqExample"
+              >
+                <div class="card-body">
+                  <b>Answer:</b> It works using the Bootstrap 4 collapse
+                  component with cards to make a vertical accordion that expands
+                  and collapses as questions are toggled.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header p-2" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Q: What is Bootstrap 4?
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#faqExample"
+              >
+                <div class="card-body">
+                  Bootstrap is the most popular CSS framework in the world. The
+                  latest version released in 2018 is Bootstrap 4. Bootstrap can
+                  be used to quickly build responsive websites.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header p-2" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Q. What is another question?
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#faqExample"
+              >
+                <div class="card-body">
+                  The answer to the question can go here.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header p-2" id="headingFour">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Q. What is the next question?
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#faqExample"
+              >
+                <div class="card-body">
+                  The answer to this question can go here. This FAQ example can
+                  contain all the Q/A that is needed.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/row-->
+    </div>
+    <!--container-->
+  </body>
+</html>
